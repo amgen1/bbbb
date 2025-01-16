@@ -16,7 +16,7 @@ $message_id = $update['message']['message_id'];
 if ($text === '/start') {
 
     // Send a photo with caption
-    $photoPath = 'home.png'; // Local path to the image
+    $photoPath = 'like.jpg'; // Local path to the image
 
     // Debugging: Check if file exists and print path
     if (file_exists($photoPath)) {
