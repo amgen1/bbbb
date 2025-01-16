@@ -1,6 +1,6 @@
 <?php
 
-$apiKey = '7847964961:AAEJ8BPQhyfgQbjUiLJ3M2Ka-d0_4Doh_-k'; // Your Telegram bot API key
+$apiKey = '8199066647:AAHv9jKtVp2WL86Qk7C5JDWsP_sVfC5oxKk'; // Your Telegram bot API key
 $apiUrl = "https://api.telegram.org/bot$apiKey/";
 
 // Get the incoming message
@@ -57,7 +57,7 @@ if ($text === '/start') {
         'reply_markup' => json_encode([
             'inline_keyboard' => [
                 [
-                    ['text' => 'Play XBB Now', 'web_app' => ['url' => 'https://app.companybro.com']],
+                    ['text' => 'Play XBB Now', 'web_app' => ['url' => 'https://ottertoken.netlify.app']],
                     ['text' => 'Join Our Community', 'url' => 'https://t.me/xbbcoin_bot']]
             ]
         ])
